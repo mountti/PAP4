@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pendaftaran Siswa</title>
+</head>
+<body>
+
+    <h2 align="center">Form Pendaftaran Peserta Didik Baru</h2>
+
+    <form>
+        <table border="1" cellpadding="8" align="center">
+            
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+
+            <tr>
+                <td>Alamat</td>
+                <td><textarea name="alamat"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Tempat, Tanggal Lahir</td>
+                <td>
+                    <input type="text" name="tempat">
+                    <input type="date" name="tanggal">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>
+                    <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+                    <input type="radio" name="jk" value="Perempuan"> Perempuan
+                </td>
+            </tr>
+
+            <tr>
+    <td>Pilihan Jurusan</td>
+    <td>
+        <input type="checkbox" name="jurusan" value="PTI"> PTI
+        <input type="checkbox" name="jurusan" value="TI"> TI
+        <input type="checkbox" name="jurusan" value="SI"> SI
+    </td>
+</tr>
+
+            <tr>
+                <td>Agama</td>
+                <td>
+                    <select name="agama">
+                        <option>Islam</option>
+                        <option>Kristen</option>
+                        <option>Katolik</option>
+                        <option>Hindu</option>
+                        <option>Buddha</option>
+                        <option>Konghucu</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Kirim">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+</html>
